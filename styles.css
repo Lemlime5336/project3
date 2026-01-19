@@ -79,3 +79,19 @@ the weather-search element is set to half the width of its parent i.e. weatehr-w
     width: 50%;
 }
 
+#weather-data {
+    /*semi-transparent white background, box layer settings, center aligned text
+    and flexbox-centric properties to align icon and weather info with gaps*/
+    background-color: rgba(255, 255, 255, 0.85);
+    border-radius: 5px;
+    padding: 1.5em;
+    margin-top: 20px;
+    text-align: center;
+    align-items: center;
+    gap: 12px;
+}
+
+#weather-data > img {
+    border-radius: 50%;
+    background-color: lightskyblue;
+}
